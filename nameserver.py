@@ -64,7 +64,7 @@ class NameMap:
     return result
 
 def nameServer():
-  fifoname="py" # unique name for fifos
+  fifoname="lu1" # unique name for fifos
   commandFifoFile = "/home/fifo/"+fifoname+"_commandFifo"
   resultFifoFile = "/home/fifo/"+fifoname+"_resultFifo"
 
