@@ -4,7 +4,7 @@ import sys
 
 
 from sortedcontainers import SortedDict
-filePath="/home/skon/PythonNameLookupCS/namedata/"
+filePath="/home/students/lu1/PythonNameLookupCS/namedata/"
 
 class nameEntry:
   """
