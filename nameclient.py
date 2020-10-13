@@ -12,7 +12,7 @@ import cgi;
 import cgitb
 cgitb.enable()
 
-fifoname="py"  # Unique name for fifos
+fifoname="lu1"  # Unique name for fifos
 commandFifoFile = "/home/fifo/"+fifoname+"_commandFifo"
 resultFifoFile = "/home/fifo/"+fifoname+"_resultFifo"
 def print_header():
