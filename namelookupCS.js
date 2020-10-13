@@ -46,7 +46,7 @@ function getMatches() {
       $.ajax(
       {
       type: "get",
-      url: "/cgi-bin/lu1_nameclientCS.py?name=" + name + "&type_select=" + searchType,
+      url: "/cgi-bin/lu1_nameclient.py?name=" + name + "&type_select=" + searchType,
       dataType: "text",
       success:  processResults,
       error: function(request, ajaxOptions, thrownError)
