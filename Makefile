@@ -1,6 +1,6 @@
 #MakeFile to build and deploy the Sample US CENSUS Name Data using ajax
 # For SCMP318 Software Development
-user= skon
+user= lu1
 all: PutCGI PutHTML
 
 PutCGI:
